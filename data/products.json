@@ -1,0 +1,483 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "Basic T-Shirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 1,
+            "rate": 4,
+            "description": "A comfortable basic t-shirt for everyday wear.",
+            "colors": ["red", "blue", "black"],
+            "sizes": ["S", "M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Basic+T-Shirt+1",
+                "https://via.placeholder.com/600x400?text=Basic+T-Shirt+2"
+            ],
+            "price": 19.99,
+            "offer": 14.99
+        },
+        {
+            "id": 2,
+            "name": "Casual Jeans",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 2,
+            "rate": 5,
+            "description": "Stylish casual jeans with a modern fit.",
+            "colors": ["blue", "black"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Casual+Jeans+1",
+                "https://via.placeholder.com/600x400?text=Casual+Jeans+2"
+            ],
+            "price": 49.99,
+            "offer": 39.99
+        },
+        {
+            "id": 3,
+            "name": "Summer Dress",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 3,
+            "rate": 4,
+            "description": "A light and breezy summer dress.",
+            "colors": ["yellow", "pink"],
+            "sizes": ["S", "M"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Summer+Dress+1",
+                "https://via.placeholder.com/600x400?text=Summer+Dress+2"
+            ],
+            "price": 34.99,
+            "offer": 24.99
+        },
+        {
+            "id": 4,
+            "name": "Winter Jacket",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 4,
+            "rate": 5,
+            "description": "Warm and durable winter jacket.",
+            "colors": ["black", "gray"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Winter+Jacket+1",
+                "https://via.placeholder.com/600x400?text=Winter+Jacket+2"
+            ],
+            "price": 89.99,
+            "offer": 74.99
+        },
+        {
+            "id": 5,
+            "name": "Formal Shirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 5,
+            "rate": 4,
+            "description": "A stylish formal shirt for business or special occasions.",
+            "colors": ["white", "blue"],
+            "sizes": ["S", "M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Formal+Shirt+1",
+                "https://via.placeholder.com/600x400?text=Formal+Shirt+2"
+            ],
+            "price": 39.99,
+            "offer": 29.99
+        },
+        {
+            "id": 6,
+            "name": "Sports Shorts",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 6,
+            "rate": 4,
+            "description": "Comfortable shorts for sports and exercise.",
+            "colors": ["black", "gray"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Sports+Shorts+1",
+                "https://via.placeholder.com/600x400?text=Sports+Shorts+2"
+            ],
+            "price": 24.99,
+            "offer": 19.99
+        },
+        {
+            "id": 7,
+            "name": "Hoodie",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 5,
+            "description": "Cozy hoodie for a casual look.",
+            "colors": ["blue", "black", "red"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Hoodie+1",
+                "https://via.placeholder.com/600x400?text=Hoodie+2"
+            ],
+            "price": 39.99,
+            "offer": 0
+        },
+        {
+            "id": 8,
+            "name": "Denim Jacket",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 4,
+            "rate": 5,
+            "description": "Classic denim jacket with a timeless design.",
+            "colors": ["blue"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Denim+Jacket+1",
+                "https://via.placeholder.com/600x400?text=Denim+Jacket+2"
+            ],
+            "price": 69.99,
+            "offer": 59.99
+        },
+        {
+            "id": 9,
+            "name": "Chino Pants",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 2,
+            "rate": 4,
+            "description": "Stylish chino pants for a refined look.",
+            "colors": ["beige", "navy"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Chino+Pants+1",
+                "https://via.placeholder.com/600x400?text=Chino+Pants+2"
+            ],
+            "price": 39.99,
+            "offer": 29.99
+        },
+        {
+            "id": 10,
+            "name": "Blazer",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 5,
+            "rate": 5,
+            "description": "A sophisticated blazer for formal events.",
+            "colors": ["black", "gray"],
+            "sizes": ["S", "M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Blazer+1",
+                "https://via.placeholder.com/600x400?text=Blazer+2"
+            ],
+            "price": 99.99,
+            "offer": 89.99
+        },
+        {
+            "id": 11,
+            "name": "Tank Top",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 6,
+            "rate": 3,
+            "description": "Lightweight tank top perfect for hot weather.",
+            "colors": ["white", "black"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Tank+Top+1",
+                "https://via.placeholder.com/600x400?text=Tank+Top+2"
+            ],
+            "price": 14.99,
+            "offer": 12.99
+        },
+        {
+            "id": 12,
+            "name": "Cardigan",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 4,
+            "description": "Soft cardigan for layering and warmth.",
+            "colors": ["cream", "gray"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Cardigan+1",
+                "https://via.placeholder.com/600x400?text=Cardigan+2"
+            ],
+            "price": 49.99,
+            "offer": 39.99
+        },
+        {
+            "id": 13,
+            "name": "Cargo Shorts",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 6,
+            "rate": 3,
+            "description": "Durable cargo shorts with multiple pockets.",
+            "colors": ["green", "black"],
+            "sizes": ["M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Cargo+Shorts+1",
+                "https://via.placeholder.com/600x400?text=Cargo+Shorts+2"
+            ],
+            "price": 29.99,
+            "offer": 24.99
+        },
+        {
+            "id": 14,
+            "name": "Sweater",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 4,
+            "description": "Warm sweater for cool weather.",
+            "colors": ["red", "blue"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Sweater+1",
+                "https://via.placeholder.com/600x400?text=Sweater+2"
+            ],
+            "price": 59.99,
+            "offer": 49.99
+        },
+        {
+            "id": 15,
+            "name": "Polo Shirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 1,
+            "rate": 4,
+            "description": "A classic polo shirt suitable for casual or semi-formal occasions.",
+            "colors": ["navy", "white"],
+            "sizes": ["S", "M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Polo+Shirt+1",
+                "https://via.placeholder.com/600x400?text=Polo+Shirt+2"
+            ],
+            "price": 29.99,
+            "offer": 24.99
+        },
+        {
+            "id": 16,
+            "name": "Maxi Skirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 3,
+            "rate": 4,
+            "description": "Elegant maxi skirt for a sophisticated look.",
+            "colors": ["black", "blue"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Maxi+Skirt+1",
+                "https://via.placeholder.com/600x400?text=Maxi+Skirt+2"
+            ],
+            "price": 44.99,
+            "offer": 34.99
+        },
+        {
+            "id": 17,
+            "name": "Jogger Pants",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 2,
+            "rate": 4,
+            "description": "Comfortable jogger pants for a casual day out.",
+            "colors": ["gray", "black"],
+            "sizes": ["M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Jogger+Pants+1",
+                "https://via.placeholder.com/600x400?text=Jogger+Pants+2"
+            ],
+            "price": 39.99,
+            "offer": 29.99
+        },
+        {
+            "id": 18,
+            "name": "V-Neck Sweater",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 5,
+            "description": "Cozy v-neck sweater for a stylish look.",
+            "colors": ["black", "green"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=V-Neck+Sweater+1",
+                "https://via.placeholder.com/600x400?text=V-Neck+Sweater+2"
+            ],
+            "price": 49.99,
+            "offer": 39.99
+        },
+        {
+            "id": 19,
+            "name": "Button-Down Shirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 5,
+            "rate": 4,
+            "description": "Classic button-down shirt for formal or casual wear.",
+            "colors": ["blue", "white"],
+            "sizes": ["S", "M", "L", "XL"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Button-Down+Shirt+1",
+                "https://via.placeholder.com/600x400?text=Button-Down+Shirt+2"
+            ],
+            "price": 34.99,
+            "offer": 24.99
+        },
+        {
+            "id": 20,
+            "name": "Cropped Top",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 1,
+            "rate": 3,
+            "description": "Trendy cropped top for a casual look.",
+            "colors": ["pink", "black"],
+            "sizes": ["S", "M"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Cropped+Top+1",
+                "https://via.placeholder.com/600x400?text=Cropped+Top+2"
+            ],
+            "price": 19.99,
+            "offer": 15.99
+        },
+        {
+            "id": 21,
+            "name": "High-Waist Jeans",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 2,
+            "rate": 4,
+            "description": "Fashionable high-waist jeans for a flattering fit.",
+            "colors": ["black", "blue"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=High-Waist+Jeans+1",
+                "https://via.placeholder.com/600x400?text=High-Waist+Jeans+2"
+            ],
+            "price": 49.99,
+            "offer": 39.99
+        },
+        {
+            "id": 22,
+            "name": "Puffer Vest",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 4,
+            "rate": 4,
+            "description": "Warm puffer vest for extra insulation.",
+            "colors": ["red", "blue"],
+            "sizes": ["M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Puffer+Vest+1",
+                "https://via.placeholder.com/600x400?text=Puffer+Vest+2"
+            ],
+            "price": 79.99,
+            "offer": 69.99
+        },
+        {
+            "id": 23,
+            "name": "Wrap Dress",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 3,
+            "rate": 5,
+            "description": "Elegant wrap dress for a sophisticated look.",
+            "colors": ["red", "black"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Wrap+Dress+1",
+                "https://via.placeholder.com/600x400?text=Wrap+Dress+2"
+            ],
+            "price": 54.99,
+            "offer": 44.99
+        },
+        {
+            "id": 24,
+            "name": "Leggings",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 6,
+            "rate": 4,
+            "description": "Comfortable leggings for daily wear.",
+            "colors": ["black", "gray"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Leggings+1",
+                "https://via.placeholder.com/600x400?text=Leggings+2"
+            ],
+            "price": 19.99,
+            "offer": 15.99
+        },
+        {
+            "id": 25,
+            "name": "Blouse",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 5,
+            "rate": 4,
+            "description": "Elegant blouse for a formal or casual setting.",
+            "colors": ["white", "blue"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Blouse+1",
+                "https://via.placeholder.com/600x400?text=Blouse+2"
+            ],
+            "price": 39.99,
+            "offer": 29.99
+        },
+        {
+            "id": 26,
+            "name": "Bomber Jacket",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 4,
+            "rate": 4,
+            "description": "Trendy bomber jacket with a modern fit.",
+            "colors": ["black", "olive"],
+            "sizes": ["M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Bomber+Jacket+1",
+                "https://via.placeholder.com/600x400?text=Bomber+Jacket+2"
+            ],
+            "price": 79.99,
+            "offer": 69.99
+        },
+        {
+            "id": 27,
+            "name": "Shirt Dress",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 3,
+            "rate": 4,
+            "description": "Versatile shirt dress for a chic look.",
+            "colors": ["white", "blue"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Shirt+Dress+1",
+                "https://via.placeholder.com/600x400?text=Shirt+Dress+2"
+            ],
+            "price": 49.99,
+            "offer": 39.99
+        },
+        {
+            "id": 28,
+            "name": "Crewneck Sweatshirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 4,
+            "description": "Cozy crewneck sweatshirt for layering.",
+            "colors": ["gray", "black"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Crewneck+Sweatshirt+1",
+                "https://via.placeholder.com/600x400?text=Crewneck+Sweatshirt+2"
+            ],
+            "price": 39.99,
+            "offer": 29.99
+        },
+        {
+            "id": 29,
+            "name": "Short-Sleeve Shirt",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 1,
+            "rate": 4,
+            "description": "Cool short-sleeve shirt for warm weather.",
+            "colors": ["light blue", "gray"],
+            "sizes": ["M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Short-Sleeve+Shirt+1",
+                "https://via.placeholder.com/600x400?text=Short-Sleeve+Shirt+2"
+            ],
+            "price": 24.99,
+            "offer": 19.99
+        },
+        {
+            "id": 30,
+            "name": "Turtleneck Sweater",
+            "thumbnail": "https://via.placeholder.com/150",
+            "category_id": 7,
+            "rate": 5,
+            "description": "Warm turtleneck sweater for chilly days.",
+            "colors": ["black", "camel"],
+            "sizes": ["S", "M", "L"],
+            "images": [
+                "https://via.placeholder.com/600x400?text=Turtleneck+Sweater+1",
+                "https://via.placeholder.com/600x400?text=Turtleneck+Sweater+2"
+            ],
+            "price": 69.99,
+            "offer": 59.99
+        }
+    ]
+}

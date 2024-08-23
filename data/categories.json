@@ -1,0 +1,43 @@
+{
+    "categories": [{
+            "id": 1,
+            "name": "Tops"
+        },
+        {
+            "id": 2,
+            "name": "Bottoms"
+        },
+        {
+            "id": 3,
+            "name": "Dresses"
+        },
+        {
+            "id": 4,
+            "name": "Outerwear"
+        },
+        {
+            "id": 5,
+            "name": "Shirts"
+        },
+        {
+            "id": 6,
+            "name": "Legwear"
+        },
+        {
+            "id": 7,
+            "name": "Sweaters"
+        },
+        {
+            "id": 8,
+            "name": "Accessories"
+        },
+        {
+            "id": 9,
+            "name": "Footwear"
+        },
+        {
+            "id": 10,
+            "name": "Activewear"
+        }
+    ]
+}
